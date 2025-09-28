@@ -11,8 +11,5 @@ app.use(express.json());
 const tarefasRoutes = require("./routes/tarefasRoutes");
 app.use("/tarefas", tarefasRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-});
 
 module.exports = app; 
